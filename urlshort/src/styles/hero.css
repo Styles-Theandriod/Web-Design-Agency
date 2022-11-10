@@ -1,0 +1,54 @@
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero__content, 
+.her__img{
+    width: 50%;
+}
+
+.hero__content{
+    padding-top: 40px;
+}
+
+.hero__content h2{
+    font-size: 3rem;
+    line-height: 65px;
+}
+
+.hero__content p{
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+.highlight{
+    color:var(--primary-color);
+}
+
+.hero__btns{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.primary__btn,
+ .secondary__btn{
+    padding: 0.8rem 1.5rem;
+    border: none;
+    outline:none;
+    color:#fff;
+    border-radius:0.2rem;
+    cursor: pointer;
+}
+
+.primary__btn{
+    background:var(--btn-secondary-bg);
+    border:1px solid var(--btn-primary-bg);
+}
+
+.secondary__btn{
+    background:var(--btn-primary-bg);
+}

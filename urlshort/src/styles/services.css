@@ -1,0 +1,26 @@
+
+
+.service__top-content{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services__item{
+    background:var(--card-bg);
+    width: 22%;
+    padding: 35px;
+    text-align: center;
+}
+
+.service_icon{
+    width: 50px;
+    height: 50px;
+    display:flex;
+    margin: auto;
+    background: var(--icon-bg);
+}
+
+.service_icon i{
+    font-size: 2rem;
+    color:var(--primary-color);
+}
